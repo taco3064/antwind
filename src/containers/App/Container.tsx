@@ -1,0 +1,58 @@
+import { FormatPainterOutlined } from '@ant-design/icons';
+import { Layout, Dropdown, Button } from 'antd';
+import { useRef } from 'react';
+
+import { TailantdThemeProvider } from '~ata/contexts';
+import type { AppProps } from './types';
+import type { TailantdThemeContextValue } from '~ata/contexts';
+import type { PaletteCode } from '~ata/themes';
+
+export default function App({ children }: AppProps) {
+  const paletteRef = useRef<TailantdThemeContextValue>(null);
+
+  const handlePaletteChange = (palette: PaletteCode) => {
+    if (paletteRef.current) {
+      paletteRef.current.onPaletteChange(palette);
+    }
+  };
+
+  return (
+    <TailantdThemeProvider ref={paletteRef} palette="clinico">
+      <Layout>
+        <Layout.Header className="flex flex-row items-center">
+          <Dropdown
+            menu={{
+              items: [
+                {
+                  key: 'clinico',
+                  label: 'CL',
+                  onClick: () => handlePaletteChange('clinico'),
+                },
+                {
+                  key: 'ibelive',
+                  label: 'IB',
+                  onClick: () => handlePaletteChange('ibelive'),
+                },
+                {
+                  key: 'wishlife',
+                  label: 'WL',
+                  onClick: () => handlePaletteChange('wishlife'),
+                },
+              ],
+            }}
+          >
+            <Button
+              className="ml-auto text-white"
+              icon={<FormatPainterOutlined />}
+              shape="circle"
+              size="large"
+              type="text"
+            />
+          </Dropdown>
+        </Layout.Header>
+
+        <Layout.Content className="px-4">{children}</Layout.Content>
+      </Layout>
+    </TailantdThemeProvider>
+  );
+}

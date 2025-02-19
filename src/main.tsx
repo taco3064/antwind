@@ -1,13 +1,15 @@
-import { Button } from 'antd';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@ant-design/v5-patch-for-react-19';
 
-import { TailantdThemeProvider } from '~ata/contexts';
+import routes from '~ata/pages';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <TailantdThemeProvider palette="clinico">
+    <RouterProvider router={createBrowserRouter(routes)} />
+
+    {/* <TailantdThemeProvider palette="clinico">
       <div className="font-bold text-error-dark">Hello, world!</div>
       <div className="font-bold text-secondary">Primary Color</div>
 
@@ -55,6 +57,6 @@ createRoot(document.getElementById('root')!).render(
           Text
         </Button>
       </Button.Group>
-    </TailantdThemeProvider>
+    </TailantdThemeProvider> */}
   </StrictMode>,
 );

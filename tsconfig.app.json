@@ -25,7 +25,7 @@
     "baseUrl": ".",
     "paths": {
       "~ata/*": ["src/*"],
-      "~demo/*": ["src/checkouts"]
+      "~demo/*": ["src/checkouts/*"]
     }
   },
   "include": ["src"]
