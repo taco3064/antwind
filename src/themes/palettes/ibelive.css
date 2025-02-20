@@ -1,6 +1,6 @@
 
-[data-theme="ibelive"] {
-  --color-content-base: rgba(24, 144, 255, 0.15);
+body:has([data-theme="ibelive"]) {
+  --color-content-base: #E0EFFF;
 
   --color-primary: rgba(24, 144, 255, 1);
   --color-primary-90: rgba(24, 144, 255, 0.9);

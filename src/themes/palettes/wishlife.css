@@ -1,6 +1,6 @@
 
-[data-theme="wishlife"] {
-  --color-content-base: rgba(97, 54, 110, 0.15);
+body:has([data-theme="wishlife"]) {
+  --color-content-base: #E8E1EA;
 
   --color-primary: rgba(97, 54, 110, 1);
   --color-primary-90: rgba(97, 54, 110, 0.9);

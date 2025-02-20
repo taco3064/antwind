@@ -1,6 +1,6 @@
 
-[data-theme="clinico"] {
-  --color-content-base: rgba(0, 77, 160, 0.1);
+body:has([data-theme="clinico"]) {
+  --color-content-base: #E7ECF6;
 
   --color-primary: rgba(0, 77, 160, 1);
   --color-primary-90: rgba(0, 77, 160, 0.9);

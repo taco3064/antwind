@@ -2,10 +2,12 @@ import type { AntdComponents } from './types';
 
 export default {
   Button: {
-    colorBgContainer: 'var(--color-content-layout)',
     borderColorDisabled: 'var(--color-disabled-dark)',
-    colorBgContainerDisabled: 'var(--color-disabled-light)',
+    colorBgContainer: 'transparent',
     colorError: 'var(--color-error-dark)',
     colorPrimary: 'var(--color-primary)',
+  },
+  Layout: {
+    headerBg: 'var(--color-secondary)',
   },
 } satisfies AntdComponents;

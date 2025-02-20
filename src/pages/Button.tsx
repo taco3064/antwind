@@ -1,3 +1,4 @@
+import Block from '~demo/button/block';
 import ColorVariant from '~demo/button/color-variant';
 import Danger from '~demo/button/danger';
 import Ghost from '~demo/button/ghost';
@@ -6,6 +7,9 @@ import { DemoContainer } from '~ata/components';
 
 export default function ButtonPage() {
   return (
-    <DemoContainer title="Button" items={{ ColorVariant, Danger, Ghost, Loading }} />
+    <DemoContainer
+      title="Button"
+      items={{ Block, ColorVariant, Danger, Ghost, Loading }}
+    />
   );
 }

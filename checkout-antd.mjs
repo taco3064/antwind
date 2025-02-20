@@ -6,10 +6,17 @@ const REPO_URL = 'https://github.com/ant-design/ant-design.git';
 const TARGET_PATH = path.resolve(process.cwd(), './src/checkouts');
 
 const COMPONENT_PATHS = [
+  'components/button/demo/block.tsx',
   'components/button/demo/color-variant.tsx',
-  'components/button/demo/loading.tsx',
-  'components/button/demo/ghost.tsx',
   'components/button/demo/danger.tsx',
+  'components/button/demo/ghost.tsx',
+  'components/button/demo/loading.tsx',
+
+  'components/menu/demo/theme.tsx',
+
+  'components/auto-complete/demo/basic.tsx',
+  'components/auto-complete/demo/status.tsx',
+  'components/auto-complete/demo/variant.tsx',
 ];
 
 const COMPONENTS = Array.from(

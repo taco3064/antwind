@@ -1,53 +1,34 @@
-import { Row, Col, List, Button, Typography, Divider } from 'antd';
-import { useNavigate } from 'react-router-dom';
-
+import { Row, Col, List, Typography, Divider } from 'antd';
 import type { DemoContainerProps } from './types';
 
-export default function DemoContainer({
-  children,
-  disableBackButton = false,
-  items,
-  title,
-}: DemoContainerProps) {
-  const navigate = useNavigate();
-
+export default function DemoContainer({ children, items, title }: DemoContainerProps) {
   return (
     <Row justify="center">
       <Col xs={24} md={12}>
         {!items ? (
-          <>
-            <Typography.Title level={3} className="text-center">
-              {title}
-            </Typography.Title>
-            {children}
-          </>
+          children
         ) : (
           <List
-            header={<Typography.Title level={4}>{title}</Typography.Title>}
+            split={false}
+            header={
+              <Typography.Title className="m-0 text-gray" level={4}>
+                {title}
+              </Typography.Title>
+            }
             dataSource={Object.entries(items)}
             renderItem={([key, Demo]) => (
               <List.Item key={key}>
                 <List.Item.Meta
+                  description={<Demo />}
                   title={
                     <Divider orientation="left">
                       <Typography.Title level={5}>{key}</Typography.Title>
                     </Divider>
                   }
-                  description={<Demo />}
                 />
               </List.Item>
             )}
           />
-        )}
-
-        {!disableBackButton && (
-          <>
-            <Divider />
-
-            <Button block size="large" variant="outlined" onClick={() => navigate(-1)}>
-              Back
-            </Button>
-          </>
         )}
       </Col>
     </Row>

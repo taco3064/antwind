@@ -15,22 +15,37 @@ export default [
     ),
     children: verifyPages([
       {
+        path: '/auto-complete',
+        Component: lazy(() => import('./AutoComplete')),
+      },
+      {
         path: '/button',
         Component: lazy(() => import('./Button')),
       },
       {
+        path: '/menu',
+        Component: lazy(() => import('./Menu')),
+      },
+      {
         path: '/',
         element: (
-          <DemoContainer disableBackButton title="Antd + Tailwind Demo">
-            <List>
+          <DemoContainer>
+            <List
+              size="small"
+              header={
+                <Typography.Title level={4} className="text-center text-gray m-0">
+                  Antd + Tailwind Demo
+                </Typography.Title>
+              }
+            >
               {import.meta.env.VITE_DEMO_COMPONENTS.map((component) => (
                 <List.Item key={component}>
                   <Link className="w-full" to={`/${component}`}>
                     <Typography.Title
                       className="text-center capitalize text-info-dark"
-                      level={4}
+                      level={5}
                     >
-                      {component}
+                      {component.replace(/-/g, ' ')}
                     </Typography.Title>
                   </Link>
                 </List.Item>
