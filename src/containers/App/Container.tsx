@@ -19,7 +19,7 @@ export default function App({ children }: AppProps) {
   return (
     <TailantdThemeProvider ref={paletteRef} palette="clinico">
       <Layout>
-        <Layout.Header className="flex flex-row items-center">
+        <Layout.Header className="sticky top-0 flex flex-row items-center">
           <Dropdown
             menu={{
               items: [
@@ -51,7 +51,7 @@ export default function App({ children }: AppProps) {
           </Dropdown>
         </Layout.Header>
 
-        <Layout.Content className="px-4">{children}</Layout.Content>
+        <Layout.Content className="px-4 py-2">{children}</Layout.Content>
       </Layout>
     </TailantdThemeProvider>
   );

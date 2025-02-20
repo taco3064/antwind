@@ -1,6 +1,8 @@
-import type { FC } from 'react';
+import type { FC, ReactNode } from 'react';
 
 export interface DemoContainerProps {
-  items: Record<string, FC>;
+  children?: ReactNode;
+  disableBackButton?: boolean;
+  items?: Record<string, FC>;
   title: string;
 }
