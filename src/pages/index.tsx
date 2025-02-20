@@ -1,5 +1,5 @@
 import { Link, Outlet, type RouteObject } from 'react-router-dom';
-import { List, Typography } from 'antd';
+import { List, Button, Typography } from 'antd';
 import { lazy } from 'react';
 
 import { App } from '~ata/containers';
@@ -31,6 +31,7 @@ export default [
         element: (
           <DemoContainer>
             <List
+              split={false}
               size="small"
               header={
                 <Typography.Title level={4} className="text-center text-gray m-0">
@@ -41,12 +42,14 @@ export default [
               {import.meta.env.VITE_DEMO_COMPONENTS.map((component) => (
                 <List.Item key={component}>
                   <Link className="w-full" to={`/${component}`}>
-                    <Typography.Title
-                      className="text-center capitalize text-info-dark"
-                      level={5}
+                    <Button
+                      block
+                      variant="outlined"
+                      color="primary"
+                      className="capitalize"
                     >
                       {component.replace(/-/g, ' ')}
-                    </Typography.Title>
+                    </Button>
                   </Link>
                 </List.Item>
               ))}
