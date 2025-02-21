@@ -11,6 +11,7 @@ const COMPONENT_PATHS = [
   'components/button/demo/danger.tsx',
   'components/button/demo/ghost.tsx',
   'components/button/demo/loading.tsx',
+  'components/button/demo/size.tsx',
 
   'components/form/demo/size.tsx',
   'components/form/demo/variant.tsx',
