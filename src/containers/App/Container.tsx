@@ -4,7 +4,7 @@ import { useRef } from 'react';
 
 import {
   AppstoreOutlined,
-  ArrowLeftOutlined,
+  ArrowRightOutlined,
   FormatPainterOutlined,
 } from '@ant-design/icons';
 
@@ -29,18 +29,7 @@ export default function App({ children }: AppProps) {
     <TailantdThemeProvider ref={paletteRef} palette="clinico">
       <Layout>
         <Layout.Header className="sticky top-0 z-100 flex flex-row items-center gap-2 px-4">
-          {pathname === '/' ? (
-            <AppstoreOutlined className="text-gray text-3xl mr-2" rotate={45} />
-          ) : (
-            <Button
-              className="text-gray"
-              icon={<ArrowLeftOutlined />}
-              shape="circle"
-              size="large"
-              type="text"
-              onClick={() => navigate('/')}
-            />
-          )}
+          <AppstoreOutlined className="text-gray text-3xl mr-2" rotate={45} />
 
           <Typography.Title level={3} className="text-white m-0">
             Tailantd Theme
@@ -72,13 +61,24 @@ export default function App({ children }: AppProps) {
             }}
           >
             <Button
-              className="ml-auto text-gray"
-              icon={<FormatPainterOutlined />}
+              className="ml-auto text-white"
+              icon={<FormatPainterOutlined className="text-xl" />}
               shape="circle"
               size="large"
               type="text"
             />
           </Dropdown>
+
+          {pathname !== '/' && (
+            <Button
+              className="text-white"
+              icon={<ArrowRightOutlined className="text-xl" />}
+              shape="circle"
+              size="large"
+              type="text"
+              onClick={() => navigate('/')}
+            />
+          )}
         </Layout.Header>
 
         <Layout.Content className="px-4 py-2">{children}</Layout.Content>

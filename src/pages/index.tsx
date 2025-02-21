@@ -1,7 +1,8 @@
-import { Link, Outlet, type RouteObject } from 'react-router-dom';
-import { List, Button, Typography } from 'antd';
+import { Outlet, type RouteObject } from 'react-router-dom';
+import { Typography } from 'antd';
 import { lazy } from 'react';
 
+import NavMenuPage from './NavMenu';
 import { App } from '~ata/containers';
 import { DemoContainer } from '~ata/components';
 
@@ -14,6 +15,10 @@ export default [
       </App>
     ),
     children: verifyPages([
+      {
+        path: '/',
+        element: <NavMenuPage />,
+      },
       {
         path: '/auto-complete',
         Component: lazy(() => import('./AutoComplete')),
@@ -33,37 +38,6 @@ export default [
       {
         path: '/pagination',
         Component: lazy(() => import('./Pagination')),
-      },
-      {
-        path: '/',
-        element: (
-          <DemoContainer>
-            <List
-              split={false}
-              size="small"
-              header={
-                <Typography.Title level={4} className="text-center text-gray m-0">
-                  Antd + Tailwind Demo
-                </Typography.Title>
-              }
-            >
-              {import.meta.env.VITE_DEMO_COMPONENTS.map((component) => (
-                <List.Item key={component}>
-                  <Link className="w-full" to={`/${component}`}>
-                    <Button
-                      block
-                      variant="outlined"
-                      color="primary"
-                      className="capitalize"
-                    >
-                      {component.replace(/-/g, ' ')}
-                    </Button>
-                  </Link>
-                </List.Item>
-              ))}
-            </List>
-          </DemoContainer>
-        ),
       },
     ]),
   },
