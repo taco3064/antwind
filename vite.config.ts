@@ -12,5 +12,8 @@ export default defineConfig({
     'import.meta.env.VITE_DEMO_COMPONENTS': JSON.stringify(
       fs.readdirSync(path.resolve(__dirname, './src/checkouts')),
     ),
+    'import.meta.env.VITE_ROUTER_BASENAME': JSON.stringify(
+      process.env.NODE_ENV !== 'production' ? '/antd-theme-architect' : undefined,
+    ),
   },
 });

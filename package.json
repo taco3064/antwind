@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && NODE_ENV=production vite build",
     "checkout-antd": "node checkout-antd.mjs",
     "commit": "git add . && git-cz",
     "dev": "vite",

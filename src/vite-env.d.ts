@@ -1,7 +1,8 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  VITE_DEMO_COMPONENTS: string[];
+  readonly VITE_DEMO_COMPONENTS: string[];
+  readonly VITE_ROUTER_BASENAME?: string;
 }
 
 interface ImportMeta {
