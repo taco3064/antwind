@@ -27,6 +27,10 @@ export default [
         Component: lazy(() => import('./Menu')),
       },
       {
+        path: '/pagination',
+        Component: lazy(() => import('./Pagination')),
+      },
+      {
         path: '/',
         element: (
           <DemoContainer>

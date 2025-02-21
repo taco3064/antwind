@@ -1,10 +1,15 @@
 import { Row, Col, List, Typography, Divider } from 'antd';
 import type { DemoContainerProps } from './types';
 
-export default function DemoContainer({ children, items, title }: DemoContainerProps) {
+export default function DemoContainer({
+  ColProps = { md: 12 },
+  children,
+  items,
+  title,
+}: DemoContainerProps) {
   return (
     <Row justify="center">
-      <Col xs={24} md={12}>
+      <Col {...ColProps} xs={24}>
         {!items ? (
           children
         ) : (
