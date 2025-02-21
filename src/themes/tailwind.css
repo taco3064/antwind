@@ -14,6 +14,14 @@
   --color-gray: rgba(0, 0, 0, 0.45);
   --color-white: #FFFFFF;
 
+  --color-disabled-dark: rgba(0, 0, 0, 0.25);
+  --color-disabled-divider: rgba(0, 0, 0, 0.25);
+  --color-disabled-light: #F0F0F0;
+
+  --color-error-dark: #FF4D4F;
+  --color-error-divider: #FFCCC7;
+  --color-error-light: #FFF1F0;
+
   --color-info-dark: #1677FF;
   --color-info-divider: #91D5FF;
   --color-info-light: #E6F7FF;
@@ -25,14 +33,6 @@
   --color-warning-dark: #FAAD14;
   --color-warning-divider: #FFE58F;
   --color-warning-light: #FFFBE6;
-
-  --color-error-dark: #FF4D4F;
-  --color-error-divider: #FFCCC7;
-  --color-error-light: #FFF1F0;
-
-  --color-disabled-dark: rgba(0, 0, 0, 0.25);
-  --color-disabled-divider: rgba(0, 0, 0, 0.25);
-  --color-disabled-light: #F0F0F0;
 
   --color-magenta-dark: #EB2F96;
   --color-magenta-divider: #FFADD2;

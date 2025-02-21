@@ -4,6 +4,7 @@ export default {
   borderRadius: 8,
   colorBorder: 'var(--color-divider)',
   colorSplit: 'var(--color-divider)',
+  colorTextPlaceholder: 'var(--color-divider)',
 
   colorBgBase: 'var(--color-content-base)',
   colorBgContainer: 'var(--color-content-paper)',
@@ -28,6 +29,18 @@ export default {
   colorInfoBg: 'var(--color-info-light)',
   colorInfoHover: 'var(--color-info-divider)',
   colorInfoBorderHover: 'var(--color-info-divider)',
+
+  colorSuccess: 'var(--color-success-dark)',
+  colorSuccessActive: 'var(--color-gray)',
+  colorSuccessBg: 'var(--color-success-light)',
+  colorSuccessHover: 'var(--color-success-divider)',
+  colorSuccessBorderHover: 'var(--color-success-divider)',
+
+  colorWarning: 'var(--color-warning-dark)',
+  colorWarningActive: 'var(--color-gray)',
+  colorWarningBg: 'var(--color-warning-light)',
+  colorWarningHover: 'var(--color-warning-divider)',
+  colorWarningBorderHover: 'var(--color-warning-divider)',
 
   cyan: '#13C2C2',
   geekblue: '#2F54EB',
