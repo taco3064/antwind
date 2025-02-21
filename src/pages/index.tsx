@@ -23,6 +23,10 @@ export default [
         Component: lazy(() => import('./Button')),
       },
       {
+        path: '/form',
+        Component: lazy(() => import('./Form')),
+      },
+      {
         path: '/menu',
         Component: lazy(() => import('./Menu')),
       },

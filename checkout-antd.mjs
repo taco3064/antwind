@@ -12,6 +12,9 @@ const COMPONENT_PATHS = [
   'components/button/demo/ghost.tsx',
   'components/button/demo/loading.tsx',
 
+  'components/form/demo/size.tsx',
+  'components/form/demo/variant.tsx',
+
   'components/menu/demo/switch-mode.tsx',
 
   'components/pagination/demo/jump.tsx',
