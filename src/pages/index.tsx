@@ -40,6 +40,10 @@ export default [
         Component: lazy(() => import('./Divider')),
       },
       {
+        path: '/empty',
+        Component: lazy(() => import('./Empty')),
+      },
+      {
         path: '/form',
         Component: lazy(() => import('./Form')),
       },

@@ -25,6 +25,9 @@ const COMPONENT_PATHS = [
   'components/divider/demo/plain.tsx',
   'components/divider/demo/with-text.tsx',
 
+  'components/empty/demo/basic.tsx',
+  'components/empty/demo/simple.tsx',
+
   'components/form/demo/size.tsx',
   'components/form/demo/variant.tsx',
 
