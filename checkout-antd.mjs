@@ -13,6 +13,18 @@ const COMPONENT_PATHS = [
   'components/button/demo/loading.tsx',
   'components/button/demo/size.tsx',
 
+  'components/cascader/demo/basic.tsx',
+  'components/cascader/demo/disabled-option.tsx',
+  'components/cascader/demo/multiple.tsx',
+  'components/cascader/demo/status.tsx',
+  'components/cascader/demo/variant.tsx',
+
+  'components/checkbox/demo/check-all.tsx',
+  'components/checkbox/demo/group.tsx',
+
+  'components/divider/demo/plain.tsx',
+  'components/divider/demo/with-text.tsx',
+
   'components/form/demo/size.tsx',
   'components/form/demo/variant.tsx',
 
@@ -20,6 +32,9 @@ const COMPONENT_PATHS = [
 
   'components/pagination/demo/jump.tsx',
   'components/pagination/demo/mini.tsx',
+
+  'components/steps/demo/clickable.tsx',
+  'components/steps/demo/progress-dot.tsx',
 
   'components/auto-complete/demo/basic.tsx',
   'components/auto-complete/demo/status.tsx',

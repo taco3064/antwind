@@ -28,6 +28,18 @@ export default [
         Component: lazy(() => import('./Button')),
       },
       {
+        path: '/cascader',
+        Component: lazy(() => import('./Cascader')),
+      },
+      {
+        path: '/checkbox',
+        Component: lazy(() => import('./Checkbox')),
+      },
+      {
+        path: '/divider',
+        Component: lazy(() => import('./Divider')),
+      },
+      {
         path: '/form',
         Component: lazy(() => import('./Form')),
       },
@@ -38,6 +50,10 @@ export default [
       {
         path: '/pagination',
         Component: lazy(() => import('./Pagination')),
+      },
+      {
+        path: '/steps',
+        Component: lazy(() => import('./Steps')),
       },
     ]),
   },
