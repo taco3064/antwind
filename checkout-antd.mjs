@@ -36,6 +36,10 @@ const COMPONENT_PATHS = [
   'components/pagination/demo/jump.tsx',
   'components/pagination/demo/mini.tsx',
 
+  'components/radio/demo/radiobutton.tsx',
+  'components/radio/demo/radiogroup-block.tsx',
+  'components/radio/demo/radiogroup-more.tsx',
+
   'components/steps/demo/clickable.tsx',
   'components/steps/demo/progress-dot.tsx',
 

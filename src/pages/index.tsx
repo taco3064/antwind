@@ -56,6 +56,10 @@ export default [
         Component: lazy(() => import('./Pagination')),
       },
       {
+        path: '/radio',
+        Component: lazy(() => import('./Radio')),
+      },
+      {
         path: '/steps',
         Component: lazy(() => import('./Steps')),
       },
