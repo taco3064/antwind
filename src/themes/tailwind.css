@@ -84,3 +84,19 @@
   --color-secondary-20: var(--color-secondary-20);
   --color-secondary-10: var(--color-secondary-10);
 }
+
+.ant-empty-image {
+  & > svg > g {
+    & > ellipse {
+      fill: var(--color-divider) !important;
+
+      & + g {
+        stroke: var(--color-divider) !important;
+
+        & > path:nth-child(2) {
+          fill: var(--color-content-base) !important;
+        }
+      }
+    }
+  }
+}

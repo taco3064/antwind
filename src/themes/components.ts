@@ -19,6 +19,9 @@ export default {
     colorTextHeading: 'var(--color-gray)',
     colorText: 'var(--color-gray)',
   },
+  Empty: {
+    colorTextDescription: 'var(--color-gray)',
+  },
   Layout: {
     headerBg: 'var(--color-secondary)',
   },

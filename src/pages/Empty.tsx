@@ -3,5 +3,5 @@ import Simple from '~demo/empty/simple';
 import { DemoContainer } from '~ata/components';
 
 export default function EmptyPage() {
-  return <DemoContainer title="ChEmptyckbox" items={{ Basic, Simple }} />;
+  return <DemoContainer title="Empty" items={{ Basic, Simple }} />;
 }
