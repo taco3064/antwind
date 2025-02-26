@@ -100,3 +100,18 @@
     }
   }
 }
+
+.ant-input-number {
+  width: 100%;
+}
+
+.ant-radio-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  & > label {
+    text-align: center;
+    flex: 1;
+  }
+}
