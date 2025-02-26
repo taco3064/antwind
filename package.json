@@ -10,11 +10,11 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tsc": "tsc --noEmit -p tsconfig.json"
+    "tsc": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
-    "antd": "^5.23.1",
+    "antd": "^5.24.2",
     "antd-style": "^3.7.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
