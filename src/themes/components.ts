@@ -10,6 +10,15 @@ export default {
     defaultGhostColor: 'var(--color-black)',
     ghostBg: 'transparent',
   },
+  Checkbox: {
+    colorBgContainer: 'transparent',
+    colorText: 'var(--color-primary)',
+    colorPrimary: 'var(--color-primary)',
+  },
+  Divider: {
+    colorTextHeading: 'var(--color-gray)',
+    colorText: 'var(--color-gray)',
+  },
   Layout: {
     headerBg: 'var(--color-secondary)',
   },

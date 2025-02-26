@@ -11,6 +11,9 @@ const BASENAME = process.env.NODE_ENV !== 'production' ? '/' : '/antd-theme-arch
 export default defineConfig({
   base: BASENAME,
   plugins: [react(), tsconfigPaths(), tailwindcss()],
+  server: {
+    open: true,
+  },
   define: {
     'import.meta.env.VITE_DEMO_COMPONENTS': JSON.stringify(
       fs.readdirSync(path.resolve(__dirname, './src/checkouts')),

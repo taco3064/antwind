@@ -24,11 +24,15 @@ export default function DemoContainer({
             renderItem={([key, Demo]) => (
               <List.Item key={key}>
                 <List.Item.Meta
-                  description={<Demo />}
                   title={
                     <Divider orientation="left">
                       <Typography.Title level={5}>{key}</Typography.Title>
                     </Divider>
+                  }
+                  description={
+                    <div className="px-4">
+                      <Demo />
+                    </div>
                   }
                 />
               </List.Item>
