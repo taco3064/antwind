@@ -1,0 +1,1 @@
+import{j as s,E as t,D as e}from"./index-C7SGGjMo.js";const p=()=>s.jsx(t,{}),m=()=>s.jsx(t,{image:t.PRESENTED_IMAGE_SIMPLE});function E(){return s.jsx(e,{title:"ChEmptyckbox",items:{Basic:p,Simple:m}})}export{E as default};
