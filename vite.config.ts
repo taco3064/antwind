@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vite';
 
-const BASENAME = process.env.NODE_ENV !== 'production' ? '/' : '/antd-theme-architect';
+const BASENAME = process.env.NODE_ENV !== 'production' ? '/' : '/tailantd-architect';
 
 // https://vite.dev/config/
 export default defineConfig({
