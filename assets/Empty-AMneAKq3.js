@@ -1,0 +1,1 @@
+import{j as s,E as t,D as e}from"./index-CcZojvJu.js";const p=()=>s.jsx(t,{}),m=()=>s.jsx(t,{image:t.PRESENTED_IMAGE_SIMPLE});function a(){return s.jsx(e,{title:"Empty",items:{Basic:p,Simple:m}})}export{a as default};
