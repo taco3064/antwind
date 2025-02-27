@@ -80,6 +80,10 @@ export default [
         Component: lazy(() => import('./Pagination')),
       },
       {
+        path: '/popover',
+        Component: lazy(() => import('./Popover')),
+      },
+      {
         path: '/radio',
         Component: lazy(() => import('./Radio')),
       },

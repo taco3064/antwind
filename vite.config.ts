@@ -34,6 +34,7 @@ export default defineConfig({
         List: ['basic', 'simple'],
         Menu: ['switch-mode'],
         Pagination: ['jump', 'mini'],
+        Popover: ['arrow', 'placement'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],
         Steps: ['clickable', 'progress-dot'],
         Table: [
