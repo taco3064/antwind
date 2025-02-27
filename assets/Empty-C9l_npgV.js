@@ -1,0 +1,1 @@
+import{j as s,ae as t,D as e}from"./index-CIDXRfH1.js";const p=()=>s.jsx(t,{}),a=()=>s.jsx(t,{image:t.PRESENTED_IMAGE_SIMPLE});function i(){return s.jsx(e,{title:"Empty",items:{Basic:p,Simple:a}})}export{i as default};
