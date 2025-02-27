@@ -21,6 +21,12 @@ export default {
     colorBgContainer: 'var(--color-content-layout)',
     colorText: 'var(--color-black)',
   },
+  Card: {
+    headerBg: 'var(--color-primary-20)',
+    colorBgContainer: 'var(--color-content-layout)',
+    colorBorderSecondary: 'var(--color-divider)',
+    colorTextHeading: 'var(--color-primary)',
+  },
   Checkbox: {
     colorBgContainer: 'var(--color-content-layout)',
     colorText: 'var(--color-primary)',

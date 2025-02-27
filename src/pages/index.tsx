@@ -36,6 +36,10 @@ export default [
         Component: lazy(() => import('./Calendar')),
       },
       {
+        path: '/card',
+        Component: lazy(() => import('./Card')),
+      },
+      {
         path: '/cascader',
         Component: lazy(() => import('./Cascader')),
       },

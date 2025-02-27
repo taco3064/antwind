@@ -26,6 +26,10 @@ const COMPONENT_PATHS = [
   'components/calendar/demo/card.tsx',
   'components/calendar/demo/week.tsx',
 
+  'components/card/demo/basic.tsx',
+  'components/card/demo/inner.tsx',
+  'components/card/demo/loading.tsx',
+
   'components/cascader/demo/basic.tsx',
   'components/cascader/demo/disabled-option.tsx',
   'components/cascader/demo/multiple.tsx',
