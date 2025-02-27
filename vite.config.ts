@@ -36,6 +36,7 @@ export default defineConfig({
         Pagination: ['jump', 'mini'],
         Popover: ['arrow', 'placement'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],
+        Statistic: ['countdown', 'unit'],
         Steps: ['clickable', 'progress-dot'],
         Table: [
           'head',

@@ -116,6 +116,10 @@ export default {
     colorPrimary: 'var(--color-primary)',
     buttonCheckedColorDisabled: 'var(--color-gray)',
   },
+  Statistic: {
+    colorTextDescription: 'var(--color-gray)',
+    colorTextHeading: 'var(--color-primary)',
+  },
   Select: {
     activeBorderColor: 'var(--color-secondary)',
     colorBorder: 'var(--color-primary)',

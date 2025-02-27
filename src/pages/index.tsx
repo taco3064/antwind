@@ -88,6 +88,10 @@ export default [
         Component: lazy(() => import('./Radio')),
       },
       {
+        path: '/statistic',
+        Component: lazy(() => import('./Statistic')),
+      },
+      {
         path: '/steps',
         Component: lazy(() => import('./Steps')),
       },
