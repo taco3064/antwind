@@ -48,6 +48,10 @@ export default [
         Component: lazy(() => import('./Checkbox')),
       },
       {
+        path: '/collapse',
+        Component: lazy(() => import('./Collapse')),
+      },
+      {
         path: '/divider',
         Component: lazy(() => import('./Divider')),
       },
