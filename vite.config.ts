@@ -46,6 +46,7 @@ export default defineConfig({
           'virtual-list',
         ],
         Tabs: ['extra', 'size', 'slide'],
+        Tag: ['basic', 'checkable', 'colorful', 'status'],
         Typography: ['text', 'title'],
       }),
     ),

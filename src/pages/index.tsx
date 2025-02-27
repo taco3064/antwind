@@ -104,6 +104,10 @@ export default [
         Component: lazy(() => import('./Tabs')),
       },
       {
+        path: '/tag',
+        Component: lazy(() => import('./Tag')),
+      },
+      {
         path: '/typography',
         Component: lazy(() => import('./Typography')),
       },
