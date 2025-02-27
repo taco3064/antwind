@@ -17,8 +17,12 @@ export default {
     defaultGhostColor: 'var(--color-black)',
     ghostBg: 'transparent',
   },
+  Calendar: {
+    colorBgContainer: 'var(--color-content-layout)',
+    colorText: 'var(--color-black)',
+  },
   Checkbox: {
-    colorBgContainer: 'transparent',
+    colorBgContainer: 'var(--color-content-layout)',
     colorText: 'var(--color-primary)',
     colorPrimary: 'var(--color-primary)',
   },
@@ -91,7 +95,7 @@ export default {
     itemBg: 'transparent',
   },
   Radio: {
-    colorBgContainer: 'transparent',
+    colorBgContainer: 'var(--color-content-layout)',
     colorText: 'var(--color-primary)',
     colorPrimary: 'var(--color-primary)',
     buttonCheckedColorDisabled: 'var(--color-gray)',
