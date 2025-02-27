@@ -52,6 +52,10 @@ export default [
         Component: lazy(() => import('./Collapse')),
       },
       {
+        path: '/descriptions',
+        Component: lazy(() => import('./Descriptions')),
+      },
+      {
         path: '/divider',
         Component: lazy(() => import('./Divider')),
       },

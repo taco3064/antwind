@@ -22,7 +22,7 @@ export default {
     colorText: 'var(--color-black)',
   },
   Card: {
-    headerBg: 'var(--color-primary-20)',
+    headerBg: 'var(--color-content-base)',
     colorBgContainer: 'var(--color-content-layout)',
     colorBorderSecondary: 'var(--color-divider)',
     colorTextHeading: 'var(--color-primary)',
@@ -31,6 +31,12 @@ export default {
     colorBgContainer: 'var(--color-content-layout)',
     colorText: 'var(--color-primary)',
     colorPrimary: 'var(--color-primary)',
+  },
+  Collapse: {
+    colorBgContainer: 'var(--color-content-layout)',
+    colorText: 'var(--color-black)',
+    colorTextHeading: 'var(--color-primary)',
+    headerBg: 'var(--color-content-base)',
   },
   DatePicker: {
     activeBorderColor: 'var(--color-secondary)',
@@ -45,6 +51,10 @@ export default {
     controlItemBgActive: 'var(--color-primary-20)',
     controlItemBgHover: 'var(--color-primary-20)',
     hoverBorderColor: 'var(--color-primary-20)',
+  },
+  Descriptions: {
+    labelBg: 'var(--color-content-base)',
+    labelColor: 'var(--color-gray)',
   },
   Divider: {
     colorTextHeading: 'var(--color-gray)',
@@ -130,9 +140,9 @@ export default {
     bodySortBg: 'var(--color-secondary-10)',
     colorBgContainer: 'var(--color-content-layout)',
     expandIconBg: 'var(--color-secondary-20)',
-    headerBg: 'var(--color-primary-60)',
-    headerColor: 'var(--color-white)',
-    headerSortActiveBg: 'var(--color-secondary)',
+    headerBg: 'var(--color-content-base)',
+    headerColor: 'var(--color-black)',
+    headerSortActiveBg: 'var(--color-secondary-40)',
     headerSortHoverBg: 'var(--color-primary-40)',
     rowHoverBg: 'var(--color-disabled-light)',
     rowSelectedBg: 'var(--color-secondary-10)',

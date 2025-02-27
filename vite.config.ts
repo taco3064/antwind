@@ -27,6 +27,7 @@ export default defineConfig({
         Cascader: ['basic', 'disabled-option', 'multiple', 'status', 'variant'],
         Checkbox: ['check-all', 'group'],
         Collapse: ['basic', 'borderless', 'accordion'],
+        Descriptions: ['basic', 'border', 'vertical', 'vertical-border'],
         Divider: ['plain', 'with-text'],
         Empty: ['basic', 'simple'],
         Form: ['size', 'variant'],
