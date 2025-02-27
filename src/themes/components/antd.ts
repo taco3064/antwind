@@ -158,7 +158,7 @@ export default {
     colorBorderSecondary: 'var(--color-divider)',
     inkBarColor: 'var(--color-primary)',
     itemColor: 'var(--color-black)',
-    itemHoverColor: 'var(--color-divider)',
+    itemHoverColor: 'var(--color-gray)',
     itemSelectedColor: 'var(--color-primary)',
   },
   Typography: {

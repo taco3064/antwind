@@ -1,4 +1,6 @@
-import { Row, Col, List, Typography, Divider } from 'antd';
+import { LinkOutlined } from '@ant-design/icons';
+import { Row, Col, List, Button, Typography, Divider, message } from 'antd';
+
 import type { DemoContainerProps } from './types';
 
 export default function DemoContainer({
@@ -22,11 +24,27 @@ export default function DemoContainer({
               </Typography.Title>
             }
             renderItem={([key, Demo]) => (
-              <List.Item key={key}>
+              <List.Item key={key} id={key}>
                 <List.Item.Meta
                   title={
                     <Divider orientation="left">
-                      <Typography.Title level={5}>{key}</Typography.Title>
+                      <Typography.Title level={5}>
+                        <Button
+                          type="text"
+                          shape="circle"
+                          icon={<LinkOutlined />}
+                          onClick={() => {
+                            const { origin, pathname } = location;
+                            const url = `${origin}${pathname}#${key}`;
+
+                            navigator.clipboard.writeText(url);
+                            location.hash = key;
+                            message.success(`Copied to clipboard:${url}`);
+                          }}
+                        />
+
+                        {key}
+                      </Typography.Title>
                     </Divider>
                   }
                   description={
