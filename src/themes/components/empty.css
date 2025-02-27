@@ -1,0 +1,16 @@
+
+.ant-empty-image {
+  & > svg > g {
+    & > ellipse {
+      fill: var(--color-divider) !important;
+
+      & + g {
+        stroke: var(--color-divider) !important;
+
+        & > path:nth-child(2) {
+          fill: var(--color-content-base) !important;
+        }
+      }
+    }
+  }
+}

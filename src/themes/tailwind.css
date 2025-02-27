@@ -4,6 +4,9 @@
 @import "./palettes/ibelive.css";
 @import "./palettes/wishlife.css";
 
+@import "./components/empty.css";
+@import "./components/form.css";
+
 @theme {
   --color-content-base: var(--color-content-base);
   --color-content-layout: #FFFFFF;
@@ -83,35 +86,4 @@
   --color-secondary-30: var(--color-secondary-30);
   --color-secondary-20: var(--color-secondary-20);
   --color-secondary-10: var(--color-secondary-10);
-}
-
-.ant-empty-image {
-  & > svg > g {
-    & > ellipse {
-      fill: var(--color-divider) !important;
-
-      & + g {
-        stroke: var(--color-divider) !important;
-
-        & > path:nth-child(2) {
-          fill: var(--color-content-base) !important;
-        }
-      }
-    }
-  }
-}
-
-.ant-input-number {
-  width: 100%;
-}
-
-.ant-radio-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-
-  & > label {
-    text-align: center;
-    flex: 1;
-  }
 }
