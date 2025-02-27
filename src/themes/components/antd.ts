@@ -106,4 +106,20 @@ export default {
     colorTextDescription: 'var(--color-gray)',
     controlItemBgActive: 'var(--color-secondary-20)',
   },
+  Switch: {
+    handleBg: 'var(--color-white)',
+  },
+  Table: {
+    bodySortBg: 'var(--color-secondary-10)',
+    colorBgContainer: 'var(--color-content-layout)',
+    headerBg: 'var(--color-primary-60)',
+    headerColor: 'var(--color-white)',
+    headerSortActiveBg: 'var(--color-secondary)',
+    headerSortHoverBg: 'var(--color-primary-40)',
+    rowHoverBg: 'var(--color-disabled-light)',
+    rowSelectedBg: 'var(--color-secondary-10)',
+    rowSelectedHoverBg: 'var(--color-disabled-light)',
+
+    expandIconBg: 'var(--color-secondary-20)',
+  },
 } satisfies AntdComponents;

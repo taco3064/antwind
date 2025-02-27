@@ -8,7 +8,7 @@ import { DemoContainer } from '~ata/components';
 export default function TablePage() {
   return (
     <DemoContainer
-      ColProps={{ md: 16, xl: 12 }}
+      ColProps={{ md: 16 }}
       title="Table"
       items={{ Head, RowSelectionAndOperation, Size, TreeData, VirtualList }}
     />

@@ -14,6 +14,9 @@
   }
 }
 
+.ant-switch.ant-switch-checked {
+  background: var(--color-primary);
+}
 
 .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
 .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
