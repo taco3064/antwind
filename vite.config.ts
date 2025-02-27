@@ -45,6 +45,7 @@ export default defineConfig({
           'tree-data',
           'virtual-list',
         ],
+        Tabs: ['extra', 'size', 'slide'],
         Typography: ['text', 'title'],
       }),
     ),

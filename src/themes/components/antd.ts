@@ -152,6 +152,15 @@ export default {
     rowSelectedBg: 'var(--color-secondary-10)',
     rowSelectedHoverBg: 'var(--color-disabled-light)',
   },
+  Tabs: {
+    cardBg: 'var(--color-primary-20)',
+    colorBgContainer: 'var(--color-content-layout)',
+    colorBorderSecondary: 'var(--color-divider)',
+    inkBarColor: 'var(--color-primary)',
+    itemColor: 'var(--color-black)',
+    itemHoverColor: 'var(--color-divider)',
+    itemSelectedColor: 'var(--color-primary)',
+  },
   Typography: {
     colorError: 'var(--color-error-dark)',
     colorInfo: 'var(--color-info-dark)',
