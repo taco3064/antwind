@@ -10,6 +10,11 @@ const COMPONENT_PATHS = [
   'components/auto-complete/demo/status.tsx',
   'components/auto-complete/demo/variant.tsx',
 
+  'components/badge/demo/change.tsx',
+  'components/badge/demo/colorful.tsx',
+  'components/badge/demo/ribbon.tsx',
+  'components/badge/demo/status.tsx',
+
   'components/button/demo/block.tsx',
   'components/button/demo/color-variant.tsx',
   'components/button/demo/danger.tsx',

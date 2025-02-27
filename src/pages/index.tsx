@@ -24,6 +24,10 @@ export default [
         Component: lazy(() => import('./AutoComplete')),
       },
       {
+        path: '/badge',
+        Component: lazy(() => import('./Badge')),
+      },
+      {
         path: '/button',
         Component: lazy(() => import('./Button')),
       },

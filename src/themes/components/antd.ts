@@ -1,6 +1,13 @@
 import type { AntdComponents } from './types';
 
 export default {
+  Badge: {
+    colorError: 'var(--color-error-dark)',
+    colorInfo: 'var(--color-info-dark)',
+    colorPrimary: 'var(--color-primary)',
+    colorSuccess: 'var(--color-success-dark)',
+    colorWarning: 'var(--color-warning-dark)',
+  },
   Button: {
     borderColorDisabled: 'var(--color-disabled-dark)',
     colorBgContainer: 'transparent',
@@ -112,6 +119,7 @@ export default {
   Table: {
     bodySortBg: 'var(--color-secondary-10)',
     colorBgContainer: 'var(--color-content-layout)',
+    expandIconBg: 'var(--color-secondary-20)',
     headerBg: 'var(--color-primary-60)',
     headerColor: 'var(--color-white)',
     headerSortActiveBg: 'var(--color-secondary)',
@@ -119,7 +127,15 @@ export default {
     rowHoverBg: 'var(--color-disabled-light)',
     rowSelectedBg: 'var(--color-secondary-10)',
     rowSelectedHoverBg: 'var(--color-disabled-light)',
-
-    expandIconBg: 'var(--color-secondary-20)',
+  },
+  Typography: {
+    colorError: 'var(--color-error-dark)',
+    colorInfo: 'var(--color-info-dark)',
+    colorSuccess: 'var(--color-success-dark)',
+    colorText: 'var(--color-black)',
+    colorTextDisabled: 'var(--color-disabled-dark)',
+    colorTextHeading: 'var(--color-primary)',
+    colorTextSecondary: 'var(--color-gray)',
+    colorWarning: 'var(--color-warning-dark)',
   },
 } satisfies AntdComponents;
