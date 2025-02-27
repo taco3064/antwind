@@ -1,11 +1,18 @@
 import path from 'path';
 import { execSync } from 'child_process';
+import * as Antd from 'antd';
+import type { ComponentType } from 'react';
+import type { ConditionalPick } from 'type-fest';
 
 const BRANCH = 'master';
 const REPO_URL = 'https://github.com/ant-design/ant-design.git';
 const TARGET_PATH = path.resolve(process.cwd(), './src/checkouts');
 
-export default function checkout(components: Record<string, string[]>) {
+export default function checkout(
+  components: Partial<
+    Record<keyof ConditionalPick<typeof Antd, ComponentType>, string[]>
+  >,
+) {
   try {
     //* 如果目標目錄已存在，先刪除
     execSync('rm -rf ./src/checkouts', { stdio: 'inherit' });

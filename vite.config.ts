@@ -31,6 +31,7 @@ export default defineConfig({
         Divider: ['plain', 'with-text'],
         Empty: ['basic', 'simple'],
         Form: ['size', 'variant'],
+        List: ['basic', 'simple'],
         Menu: ['switch-mode'],
         Pagination: ['jump', 'mini'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],

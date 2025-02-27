@@ -14,13 +14,13 @@ export default function DemoContainer({
           children
         ) : (
           <List
+            dataSource={Object.entries(items)}
             split={false}
             header={
               <Typography.Title className="m-0 text-gray" level={4}>
                 {title}
               </Typography.Title>
             }
-            dataSource={Object.entries(items)}
             renderItem={([key, Demo]) => (
               <List.Item key={key}>
                 <List.Item.Meta
