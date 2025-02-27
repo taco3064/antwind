@@ -63,6 +63,10 @@ export default [
         path: '/steps',
         Component: lazy(() => import('./Steps')),
       },
+      {
+        path: '/table',
+        Component: lazy(() => import('./Table')),
+      },
     ]),
   },
 ] satisfies RouteObject[];
