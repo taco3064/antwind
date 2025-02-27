@@ -67,6 +67,10 @@ export default [
         path: '/table',
         Component: lazy(() => import('./Table')),
       },
+      {
+        path: '/typography',
+        Component: lazy(() => import('./Typography')),
+      },
     ]),
   },
 ] satisfies RouteObject[];

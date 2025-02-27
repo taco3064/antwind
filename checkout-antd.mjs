@@ -52,6 +52,9 @@ const COMPONENT_PATHS = [
   'components/table/demo/size.tsx',
   'components/table/demo/tree-data.tsx',
   'components/table/demo/virtual-list.tsx',
+
+  'components/typography/demo/text.tsx',
+  'components/typography/demo/title.tsx',
 ];
 
 const COMPONENTS = Array.from(
