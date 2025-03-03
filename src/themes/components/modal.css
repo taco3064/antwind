@@ -1,0 +1,7 @@
+.ant-modal {
+  &.ant-modal-confirm-confirm .ant-modal-confirm-body {
+    & > span.anticon {
+      color: var(--color-secondary);
+    }
+  }
+}

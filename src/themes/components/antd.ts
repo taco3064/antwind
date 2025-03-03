@@ -98,6 +98,13 @@ export default {
     darkItemSelectedBg: 'var(--color-secondary)',
     subMenuItemSelectedColor: 'var(--color-orange-dark)',
   },
+  Message: {
+    colorError: 'var(--color-error-dark)',
+    colorInfo: 'var(--color-info-dark)',
+    colorPrimary: 'var(--color-primary)',
+    colorSuccess: 'var(--color-success-dark)',
+    colorWarning: 'var(--color-warning-dark)',
+  },
   Pagination: {
     colorBgContainer: 'var(--color-content-layout)',
     colorBgTextHover: 'var(--color-primary-20)',

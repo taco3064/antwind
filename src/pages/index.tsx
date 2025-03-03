@@ -84,6 +84,14 @@ export default [
         Component: lazy(() => import('./Menu')),
       },
       {
+        path: '/message',
+        Component: lazy(() => import('./Message')),
+      },
+      {
+        path: '/modal',
+        Component: lazy(() => import('./Modal')),
+      },
+      {
         path: '/pagination',
         Component: lazy(() => import('./Pagination')),
       },

@@ -10,7 +10,7 @@ const TARGET_PATH = path.resolve(process.cwd(), './src/checkouts');
 
 export default function checkout(
   components: Partial<
-    Record<keyof ConditionalPick<typeof Antd, ComponentType>, string[]>
+    Record<keyof ConditionalPick<typeof Antd, ComponentType> | 'Message', string[]>
   >,
 ) {
   try {
@@ -65,8 +65,10 @@ export default function checkout(
 }
 
 function pascal2Kebab(str: string) {
-  return str
-    .match(/[A-Z][a-z0-9]*/g)
-    ?.join('-')
-    .toLowerCase();
+  return (
+    str
+      .match(/[A-Z][a-z0-9]*/g)
+      ?.join('-')
+      .toLowerCase() || str
+  );
 }

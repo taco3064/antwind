@@ -8,6 +8,7 @@
 @import "./components/base.css";
 @import "./components/empty.css";
 @import "./components/form.css";
+@import "./components/modal.css";
 @import "./components/tabs.css";
 
 @theme {

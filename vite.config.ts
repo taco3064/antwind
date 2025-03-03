@@ -35,6 +35,8 @@ export default defineConfig({
         Form: ['size', 'variant'],
         List: ['basic', 'simple'],
         Menu: ['switch-mode'],
+        Message: ['hooks', 'loading', 'other'],
+        Modal: ['locale', 'static-info'],
         Pagination: ['jump', 'mini'],
         Popover: ['arrow', 'placement'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],
