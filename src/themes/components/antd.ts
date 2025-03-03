@@ -99,6 +99,15 @@ export default {
     subMenuItemSelectedColor: 'var(--color-orange-dark)',
   },
   Message: {
+    colorBgElevated: 'var(--color-content-base)',
+    colorError: 'var(--color-error-dark)',
+    colorInfo: 'var(--color-info-dark)',
+    colorPrimary: 'var(--color-primary)',
+    colorSuccess: 'var(--color-success-dark)',
+    colorWarning: 'var(--color-warning-dark)',
+  },
+  Notification: {
+    colorBgElevated: 'var(--color-content-base)',
     colorError: 'var(--color-error-dark)',
     colorInfo: 'var(--color-info-dark)',
     colorPrimary: 'var(--color-primary)',

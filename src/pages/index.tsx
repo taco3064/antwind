@@ -92,6 +92,10 @@ export default [
         Component: lazy(() => import('./Modal')),
       },
       {
+        path: '/notification',
+        Component: lazy(() => import('./Notification')),
+      },
+      {
         path: '/pagination',
         Component: lazy(() => import('./Pagination')),
       },

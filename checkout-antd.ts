@@ -10,7 +10,10 @@ const TARGET_PATH = path.resolve(process.cwd(), './src/checkouts');
 
 export default function checkout(
   components: Partial<
-    Record<keyof ConditionalPick<typeof Antd, ComponentType> | 'Message', string[]>
+    Record<
+      keyof ConditionalPick<typeof Antd, ComponentType> | 'Message' | 'Notification',
+      string[]
+    >
   >,
 ) {
   try {

@@ -37,6 +37,7 @@ export default defineConfig({
         Menu: ['switch-mode'],
         Message: ['hooks', 'loading', 'other'],
         Modal: ['locale', 'static-info'],
+        Notification: ['duration', 'with-icon'],
         Pagination: ['jump', 'mini'],
         Popover: ['arrow', 'placement'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],
