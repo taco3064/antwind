@@ -20,7 +20,6 @@ export default defineConfig({
     'import.meta.env.VITE_DEMO_COMPONENTS': JSON.stringify(
       checkout({
         Alert: ['description', 'icon'],
-        AutoComplete: ['basic', 'status', 'variant'],
         Badge: ['change', 'colorful', 'ribbon', 'status'],
         Button: ['block', 'color-variant', 'danger', 'ghost', 'loading', 'size'],
         Calendar: ['basic', 'card', 'week'],
