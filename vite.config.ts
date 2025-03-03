@@ -39,8 +39,11 @@ export default defineConfig({
         Modal: ['locale', 'static-info'],
         Notification: ['duration', 'with-icon'],
         Pagination: ['jump', 'mini'],
+        Popconfirm: ['placement'],
         Popover: ['arrow', 'placement'],
         Radio: ['radiobutton', 'radiogroup-block', 'radiogroup-more'],
+        Result: ['error', 'info', 'success', 'warning', '404'],
+        Spin: ['delayAndDebounce'],
         Statistic: ['countdown', 'unit'],
         Steps: ['clickable', 'progress-dot'],
         Table: [

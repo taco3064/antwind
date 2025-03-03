@@ -132,6 +132,16 @@ export default {
     colorPrimary: 'var(--color-primary)',
     buttonCheckedColorDisabled: 'var(--color-gray)',
   },
+  Result: {
+    colorError: 'var(--color-error-dark)',
+    colorInfo: 'var(--color-info-dark)',
+    colorPrimary: 'var(--color-primary)',
+    colorSuccess: 'var(--color-success-dark)',
+    colorWarning: 'var(--color-warning-dark)',
+  },
+  Spin: {
+    colorPrimary: 'var(--color-secondary)',
+  },
   Statistic: {
     colorTextDescription: 'var(--color-gray)',
     colorTextHeading: 'var(--color-primary)',

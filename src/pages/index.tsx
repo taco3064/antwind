@@ -100,12 +100,24 @@ export default [
         Component: lazy(() => import('./Pagination')),
       },
       {
+        path: '/popconfirm',
+        Component: lazy(() => import('./Popconfirm')),
+      },
+      {
         path: '/popover',
         Component: lazy(() => import('./Popover')),
       },
       {
         path: '/radio',
         Component: lazy(() => import('./Radio')),
+      },
+      {
+        path: '/result',
+        Component: lazy(() => import('./Result')),
+      },
+      {
+        path: '/spin',
+        Component: lazy(() => import('./Spin')),
       },
       {
         path: '/statistic',
