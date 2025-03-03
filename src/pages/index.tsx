@@ -64,6 +64,10 @@ export default [
         Component: lazy(() => import('./Divider')),
       },
       {
+        path: '/drawer',
+        Component: lazy(() => import('./Drawer')),
+      },
+      {
         path: '/empty',
         Component: lazy(() => import('./Empty')),
       },

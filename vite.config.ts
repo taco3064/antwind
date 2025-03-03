@@ -30,6 +30,7 @@ export default defineConfig({
         Collapse: ['basic', 'borderless', 'accordion'],
         Descriptions: ['basic', 'border', 'vertical', 'vertical-border'],
         Divider: ['plain', 'with-text'],
+        Drawer: ['loading', 'placement'],
         Empty: ['basic', 'simple'],
         Form: ['size', 'variant'],
         List: ['basic', 'simple'],
