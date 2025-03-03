@@ -178,6 +178,9 @@ export default {
     defaultBg: 'var(--color-light)',
     defaultColor: 'var(--color-gray)',
   },
+  Tooltip: {
+    colorBgSpotlight: 'var(--color-secondary)',
+  },
   Typography: {
     colorError: 'var(--color-error-dark)',
     colorInfo: 'var(--color-info-dark)',

@@ -19,6 +19,7 @@ export default defineConfig({
 
     'import.meta.env.VITE_DEMO_COMPONENTS': JSON.stringify(
       checkout({
+        Alert: ['description', 'icon'],
         AutoComplete: ['basic', 'status', 'variant'],
         Badge: ['change', 'colorful', 'ribbon', 'status'],
         Button: ['block', 'color-variant', 'danger', 'ghost', 'loading', 'size'],
@@ -47,6 +48,7 @@ export default defineConfig({
         ],
         Tabs: ['extra', 'size', 'slide'],
         Tag: ['basic', 'checkable', 'colorful', 'status'],
+        Tooltip: ['arrow', 'placement'],
         Typography: ['text', 'title'],
       }),
     ),

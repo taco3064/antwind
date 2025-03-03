@@ -20,6 +20,10 @@ export default [
         element: <NavMenuPage />,
       },
       {
+        path: '/alert',
+        Component: lazy(() => import('./Alert')),
+      },
+      {
         path: '/auto-complete',
         Component: lazy(() => import('./AutoComplete')),
       },
@@ -106,6 +110,10 @@ export default [
       {
         path: '/tag',
         Component: lazy(() => import('./Tag')),
+      },
+      {
+        path: '/tooltip',
+        Component: lazy(() => import('./Tooltip')),
       },
       {
         path: '/typography',
