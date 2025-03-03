@@ -13,7 +13,7 @@
 @theme {
   --color-content-base: var(--color-content-base);
   --color-content-layout: #FFFFFF;
-  --color-content-paper: #F0F0F0;
+  --color-content-paper: #FAFAFA;
   --color-divider: #D9D9D9;
 
   --color-black: rgba(0, 0, 0, 0.85);

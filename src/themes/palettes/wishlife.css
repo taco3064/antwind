@@ -1,26 +1,26 @@
 
 body:has([data-theme="wishlife"]) {
-  --color-content-base: #E8E1EA;
+  --color-content-base: #E7E1E9;
 
-  --color-primary: rgba(97, 54, 110, 1);
-  --color-primary-90: rgba(97, 54, 110, 0.9);
-  --color-primary-80: rgba(97, 54, 110, 0.8);
-  --color-primary-70: rgba(97, 54, 110, 0.7);
-  --color-primary-60: rgba(97, 54, 110, 0.6);
-  --color-primary-50: rgba(97, 54, 110, 0.5);
-  --color-primary-40: rgba(97, 54, 110, 0.4);
-  --color-primary-30: rgba(97, 54, 110, 0.3);
-  --color-primary-20: rgba(97, 54, 110, 0.2);
-  --color-primary-10: rgba(97, 54, 110, 0.1);
+  --color-primary: #61366E;
+  --color-primary-90: #714A7D;
+  --color-primary-80: #815E8B;
+  --color-primary-70: #907299;
+  --color-primary-60: #A086A8;
+  --color-primary-50: #B09AB6;
+  --color-primary-40: #C0AFC5;
+  --color-primary-30: #D0C3D3;
+  --color-primary-20: #DFD7E2;
+  --color-primary-10: #EFEBF0;
 
-  --color-secondary: rgba(226, 0, 123, 1);
-  --color-secondary-90: rgba(226, 0, 123, 0.9);
-  --color-secondary-80: rgba(226, 0, 123, 0.8);
-  --color-secondary-70: rgba(226, 0, 123, 0.7);
-  --color-secondary-60: rgba(226, 0, 123, 0.6);
-  --color-secondary-50: rgba(226, 0, 123, 0.5);
-  --color-secondary-40: rgba(226, 0, 123, 0.4);
-  --color-secondary-30: rgba(226, 0, 123, 0.3);
-  --color-secondary-20: rgba(226, 0, 123, 0.2);
-  --color-secondary-10: rgba(226, 0, 123, 0.1);
+  --color-secondary: #E2007B;
+  --color-secondary-90: #E51A88;
+  --color-secondary-80: #E83395;
+  --color-secondary-70: #EB4DA3;
+  --color-secondary-60: #EE66B0;
+  --color-secondary-50: #F180BD;
+  --color-secondary-40: #F399CA;
+  --color-secondary-30: #F6B2D7;
+  --color-secondary-20: #F9CCE5;
+  --color-secondary-10: #FCE5F2;
 }
