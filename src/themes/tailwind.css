@@ -1,73 +1,73 @@
-@import "tailwindcss" important;
+@import 'tailwindcss' important;
 
-@import "./palettes/clinico.css";
-@import "./palettes/ibelive.css";
-@import "./palettes/wishlife.css";
+@import './palettes/clinico.css';
+@import './palettes/ibelive.css';
+@import './palettes/wishlife.css';
 
-@import "./components/base.css";
-@import "./components/empty.css";
-@import "./components/form.css";
-@import "./components/modal.css";
-@import "./components/tabs.css";
+@import './components/base.css';
+@import './components/empty.css';
+@import './components/form.css';
+@import './components/modal.css';
+@import './components/tabs.css';
 
 @theme {
   --color-content-base: var(--color-content-base);
-  --color-content-layout: #FFFFFF;
-  --color-content-paper: #FAFAFA;
-  --color-divider: #D9D9D9;
+  --color-content-layout: #ffffff;
+  --color-content-paper: #fafafa;
+  --color-divider: #d9d9d9;
 
   --color-black: rgba(0, 0, 0, 0.85);
   --color-gray: rgba(0, 0, 0, 0.45);
   --color-light: '#D9D9D9';
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
 
   --color-disabled-dark: rgba(0, 0, 0, 0.25);
   --color-disabled-divider: rgba(0, 0, 0, 0.25);
-  --color-disabled-light: #F0F0F0;
+  --color-disabled-light: #f0f0f0;
 
-  --color-error-dark: #FF4D4F;
-  --color-error-divider: #FFCCC7;
-  --color-error-light: #FFF1F0;
+  --color-error-dark: #ff4d4f;
+  --color-error-divider: #ffccc7;
+  --color-error-light: #fff1f0;
 
-  --color-info-dark: #1677FF;
-  --color-info-divider: #91D5FF;
-  --color-info-light: #E6F7FF;
+  --color-info-dark: #1677ff;
+  --color-info-divider: #91d5ff;
+  --color-info-light: #e6f7ff;
 
-  --color-success-dark: #39AD65;
-  --color-success-divider: #B7EB8F;
-  --color-success-light: #F6FFED;
+  --color-success-dark: #39ad65;
+  --color-success-divider: #b7eb8f;
+  --color-success-light: #f6ffed;
 
-  --color-warning-dark: #FAAD14;
-  --color-warning-divider: #FFE58F;
-  --color-warning-light: #FFFBE6;
+  --color-warning-dark: #faad14;
+  --color-warning-divider: #ffe58f;
+  --color-warning-light: #fffbe6;
 
-  --color-magenta-dark: #EB2F96;
-  --color-magenta-divider: #FFADD2;
-  --color-magenta-light: #FFF0F6;
+  --color-magenta-dark: #eb2f96;
+  --color-magenta-divider: #ffadd2;
+  --color-magenta-light: #fff0f6;
 
-  --color-volcano-dark: #FA541C;
-  --color-volcano-divider: #FFBB96;
-  --color-volcano-light: #FFF2E8;
+  --color-volcano-dark: #fa541c;
+  --color-volcano-divider: #ffbb96;
+  --color-volcano-light: #fff2e8;
 
-  --color-orange-dark: #FA8C16;
-  --color-orange-divider: #FFD591;
-  --color-orange-light: #FFF7E6;
+  --color-orange-dark: #fa8c16;
+  --color-orange-divider: #ffd591;
+  --color-orange-light: #fff7e6;
 
-  --color-lime-dark: #A0D911;
-  --color-lime-divider: #EAFF8F;
-  --color-lime-light: #FCFFE6;
+  --color-lime-dark: #a0d911;
+  --color-lime-divider: #eaff8f;
+  --color-lime-light: #fcffe6;
 
-  --color-cyan-dark: #13C2C2;
-  --color-cyan-divider: #87E8DE;
-  --color-cyan-light: #E6FFFB;
+  --color-cyan-dark: #13c2c2;
+  --color-cyan-divider: #87e8de;
+  --color-cyan-light: #e6fffb;
 
-  --color-geekblue-dark: #2F54EB;
-  --color-geekblue-divider: #ADC6FF;
-  --color-geekblue-light: #F0F5FF;
+  --color-geekblue-dark: #2f54eb;
+  --color-geekblue-divider: #adc6ff;
+  --color-geekblue-light: #f0f5ff;
 
-  --color-purple-dark: #722ED1;
-  --color-purple-divider: #D3ADF7;
-  --color-purple-light: #F9F0FF;
+  --color-purple-dark: #722ed1;
+  --color-purple-divider: #d3adf7;
+  --color-purple-light: #f9f0ff;
 
   --color-primary: var(--color-primary);
   --color-primary-90: var(--color-primary-90);
