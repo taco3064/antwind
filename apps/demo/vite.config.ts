@@ -13,6 +13,9 @@ export default defineConfig({
   server: {
     open: true,
   },
+  build: {
+    outDir: '../../dist/apps/demo',
+  },
   define: {
     'import.meta.env.VITE_PALETTES': JSON.stringify(
       fs
