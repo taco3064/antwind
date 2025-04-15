@@ -7,6 +7,10 @@ import routes from '~demo/pages';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={createBrowserRouter(routes)} />
+    <RouterProvider
+      router={createBrowserRouter(routes, {
+        basename: import.meta.env.VITE_ROUTER_BASENAME,
+      })}
+    />
   </StrictMode>,
 );

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && NODE_ENV=production vite build",
     "dev": "vite",
     "lint": "eslint .",
     "tsc": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json"

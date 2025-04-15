@@ -7,8 +7,11 @@ import { defineConfig } from 'vite';
 
 import checkout from './checkout-antd';
 
+const BASENAME = process.env.NODE_ENV !== 'production' ? '/' : '/antwind';
+
 // https://vite.dev/config/
 export default defineConfig({
+  base: BASENAME,
   plugins: [react(), tsconfigPaths(), tailwindcss()],
   server: {
     open: true,
@@ -17,6 +20,7 @@ export default defineConfig({
     outDir: '../../dist/apps/demo',
   },
   define: {
+    'import.meta.env.VITE_ROUTER_BASENAME': JSON.stringify(BASENAME),
     'import.meta.env.VITE_PALETTES': JSON.stringify(
       fs
         .readdirSync(path.resolve(__dirname, './src/themes/palettes'))
