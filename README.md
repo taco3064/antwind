@@ -216,13 +216,14 @@ npm i @tailwindcss/vite -D
 
 - ### AntwindThemeProvider (Component)
 
-  | Props          | Type                             | Description                                                                                           |
-  | -------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------- |
-  | \***chidlren** | ReactNode                        | `AntwindThemeProvider` 組件的子元素                                                                   |
-  | \***value**    | T extend string                  | 當前主題名稱，用於設定 rootEl 的主題 class（格式為 :[value]）。                                       |
-  | dark           | boolean                          | 若主題配色屬暗色系，請開啟此選項。這會影響部分 Antd Components 輸出之結果。                           |
-  | rootEl         | HTMLElement \| () => HTMLElement | 指定用於套用主題樣式的根元素，預設為 `document.body`。可直接傳入 DOM 元素，也可使用函數傳回目標元素。 |
-  | onChange       | (e: T) => void                   | 當主題變更時觸發的回呼函數，參數為新的主題值 T。                                                      |
+  - **Props**
+    | Props | Type | Description |
+    | -------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------- |
+    | \***chidlren** | ReactNode | `AntwindThemeProvider` 組件的子元素 |
+    | \***value** | T extend string | 當前主題名稱，用於設定 rootEl 的主題 class（格式為 :[value]）。 |
+    | dark | boolean | 若主題配色屬暗色系，請開啟此選項。這會影響部分 Antd Components 輸出之結果。 |
+    | rootEl | HTMLElement \| () => HTMLElement | 指定用於套用主題樣式的根元素，預設為 `document.body`。可直接傳入 DOM 元素，也可使用函數傳回目標元素。 |
+    | onChange | (e: T) => void | 當主題變更時觸發的回呼函數，參數為新的主題值 T。 |
 
 - ### useAntwindTheme\<T extends string>
   - **Inputs**: `None`
@@ -267,3 +268,9 @@ pnpm install
   ```
 
   執行後，GitLab Runner 將自動觸發發布流程，完成套件發佈至公司內部的 npm registry。<br/><br/>
+
+- ### Checkout Antd
+
+  `apps/demo/checkout-antd.ts` 提供了一套自動化流程，可將 [Ant Design 官方 GitHub 倉庫](https://github.com/ant-design/ant-design) 中的指定元件 demo 程式碼取出，並同步到本地專案中，作為範例展示或測試整合使用。
+
+  而 checkout-antd.ts 的內容，是在 `apps/demo/vite.config.ts` 中使用，在 Vite build 時機同步官方 demo 程式碼，確保每次打包時能更新至最新狀態。<br/><br/>
