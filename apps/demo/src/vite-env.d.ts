@@ -9,4 +9,4 @@ interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
 
-type PaletteCode = 'clinico' | 'ibelive' | 'wishlife' | 'custom';
+type PaletteCode = 'custom';
