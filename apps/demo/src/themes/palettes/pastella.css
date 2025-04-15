@@ -1,8 +1,8 @@
 .\:pastella {
-  --color-content-base: #ffffff; /* 純白背景，乾淨簡約 */
-  --color-content-layout: #f9f9fb; /* 牛奶白 */
-  --color-content-paper: #fefefe; /* 紙白微霧感 */
-  --color-divider: #e0e0e0; /* 淡灰分隔 */
+  --color-content-base: #f7f5f0; /* 溫柔奶霜，閱讀背景 */
+  --color-content-layout: #f2efe6; /* 輕杏奶茶 */
+  --color-content-paper: #fefaf4; /* 雲朵糖霜 */
+  --color-divider: #e2ded9; /* 淡灰分隔 */
 
   --color-contrast: rgba(0, 0, 0, 0.9);
   --color-muted: rgba(0, 0, 0, 0.7);
