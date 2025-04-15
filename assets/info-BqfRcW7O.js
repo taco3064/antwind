@@ -1,0 +1,1 @@
+import{j as e,B as o}from"./index-CRAzO0-O.js";import{R as t}from"./index-BIiwsnFM.js";const a=()=>e.jsx(t,{title:"Your operation has been executed",extra:e.jsx(o,{type:"primary",children:"Go Console"},"console")});export{a as default};

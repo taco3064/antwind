@@ -1,1 +1,0 @@
-import{j as t,cy as e}from"./index-DERcz0tS.js";const r=s=>{console.log("Page: ",s)},a=()=>t.jsxs(t.Fragment,{children:[t.jsx(e,{showQuickJumper:!0,defaultCurrent:2,total:500,onChange:r}),t.jsx("br",{}),t.jsx(e,{showQuickJumper:!0,defaultCurrent:2,total:500,onChange:r,disabled:!0})]});export{a as default};

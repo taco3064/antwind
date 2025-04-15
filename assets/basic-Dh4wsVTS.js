@@ -1,1 +1,0 @@
-import{j as a}from"./index-DERcz0tS.js";import{C as m}from"./index-Dl6ruGr4.js";import"./index-CMa1RAee.js";import"./index-B4kAKJQz.js";import"./useBubbleLock-DwIkwvTR.js";const l=()=>{const o=(r,t)=>{console.log(r.format("YYYY-MM-DD"),t)};return a.jsx(m,{onPanelChange:o})};export{l as default};

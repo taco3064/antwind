@@ -1,1 +1,0 @@
-import{j as o,B as t}from"./index-DERcz0tS.js";import{R as e}from"./index-RMYgs98-.js";const a=()=>o.jsx(e,{status:"warning",title:"There are some problems with your operation.",extra:o.jsx(t,{type:"primary",children:"Go Console"},"console")});export{a as default};
