@@ -245,7 +245,7 @@ pnpm install
 
 這將安裝所有依賴，確保開發環境就緒。而 **Antwind** 採用 `pnpm` + `turbo` 架構，並以 monorepo 方式管理。專案包含以下兩個子項目:
 
-- **apps/demo** - 僅供本機開發與測試，不支援 `build` 指令。
+- **apps/demo** - 僅供本機開發與測試。
 - **libs/antwind** - 核心套件，負責 `antd` + `tailwindcss` 的整合，可發佈至公司內部的 npm registry。<br/><br/>
 
 - ### Development
