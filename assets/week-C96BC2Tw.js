@@ -1,0 +1,1 @@
+import{j as e}from"./index-DERcz0tS.js";import{C as r}from"./index-Dl6ruGr4.js";import"./index-CMa1RAee.js";import"./index-B4kAKJQz.js";import"./useBubbleLock-DwIkwvTR.js";const a=()=>e.jsxs(e.Fragment,{children:[e.jsx(r,{fullscreen:!0,showWeek:!0}),e.jsx("br",{}),e.jsx(r,{fullscreen:!1,showWeek:!0})]});export{a as default};

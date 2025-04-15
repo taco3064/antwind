@@ -1,0 +1,1 @@
+import{cj as n,j as s,B as i}from"./index-DERcz0tS.js";const r=()=>{const[t,e]=n.useMessage(),o=()=>{t.open({type:"loading",content:"Action in progress..",duration:0}),setTimeout(t.destroy,2500)};return s.jsxs(s.Fragment,{children:[e,s.jsx(i,{onClick:o,children:"Display a loading indicator"})]})};export{r as default};
