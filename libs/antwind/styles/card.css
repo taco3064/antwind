@@ -1,0 +1,4 @@
+.ant-card .ant-card-actions > li > span a:not(.ant-card-btn),
+.ant-card .ant-card-actions > li > span > .anticon {
+  color: var(--color-contrast);
+}

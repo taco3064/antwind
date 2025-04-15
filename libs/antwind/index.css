@@ -1,0 +1,93 @@
+@import './styles/base.css' important;
+@import './styles/calendar.css' important;
+@import './styles/card.css' important;
+@import './styles/descriptions.css' important;
+@import './styles/empty.css' important;
+@import './styles/form.css' important;
+@import './styles/list.css' important;
+@import './styles/modal.css' important;
+@import './styles/steps.css' important;
+@import './styles/tabs.css' important;
+@import './styles/typography.css' important;
+
+@theme static {
+  --color-content-base: var(--color-content-base);
+  --color-content-layout: #ffffff;
+  --color-content-paper: #fafafa;
+  --color-divider: rgba(0, 0, 0, 0.25);
+
+  --color-contrast: rgba(0, 0, 0, 0.85);
+  --color-muted: rgba(0, 0, 0, 0.45);
+  --color-soft: #d9d9d9;
+  --color-base: #ffffff;
+
+  --color-disabled-dark: rgba(0, 0, 0, 0.25);
+  --color-disabled-divider: rgba(0, 0, 0, 0.25);
+  --color-disabled-light: #f0f0f0;
+
+  --color-error-dark: #ff4d4f;
+  --color-error-divider: #ffccc7;
+  --color-error-light: #fff1f0;
+
+  --color-info-dark: #1677ff;
+  --color-info-divider: #91d5ff;
+  --color-info-light: #e6f7ff;
+
+  --color-success-dark: #39ad65;
+  --color-success-divider: #b7eb8f;
+  --color-success-light: #f6ffed;
+
+  --color-warning-dark: #faad14;
+  --color-warning-divider: #ffe58f;
+  --color-warning-light: #fffbe6;
+
+  --color-magenta-dark: #eb2f96;
+  --color-magenta-divider: #ffadd2;
+  --color-magenta-light: #fff0f6;
+
+  --color-volcano-dark: #fa541c;
+  --color-volcano-divider: #ffbb96;
+  --color-volcano-light: #fff2e8;
+
+  --color-orange-dark: #fa8c16;
+  --color-orange-divider: #ffd591;
+  --color-orange-light: #fff7e6;
+
+  --color-lime-dark: #a0d911;
+  --color-lime-divider: #eaff8f;
+  --color-lime-light: #fcffe6;
+
+  --color-cyan-dark: #13c2c2;
+  --color-cyan-divider: #87e8de;
+  --color-cyan-light: #e6fffb;
+
+  --color-geekblue-dark: #2f54eb;
+  --color-geekblue-divider: #adc6ff;
+  --color-geekblue-light: #f0f5ff;
+
+  --color-purple-dark: #722ed1;
+  --color-purple-divider: #d3adf7;
+  --color-purple-light: #f9f0ff;
+
+  --color-primary: var(--color-primary);
+  --color-primary-90: var(--color-primary-90);
+  --color-primary-80: var(--color-primary-80);
+  --color-primary-70: var(--color-primary-70);
+  --color-primary-60: var(--color-primary-60);
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-40: var(--color-primary-40);
+  --color-primary-30: var(--color-primary-30);
+  --color-primary-20: var(--color-primary-20);
+  --color-primary-10: var(--color-primary-10);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-90: var(--color-secondary-90);
+  --color-secondary-80: var(--color-secondary-80);
+  --color-secondary-70: var(--color-secondary-70);
+  --color-secondary-60: var(--color-secondary-60);
+  --color-secondary-50: var(--color-secondary-50);
+  --color-secondary-40: var(--color-secondary-40);
+  --color-secondary-30: var(--color-secondary-30);
+  --color-secondary-20: var(--color-secondary-20);
+  --color-secondary-10: var(--color-secondary-10);
+}

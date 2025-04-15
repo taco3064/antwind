@@ -1,0 +1,36 @@
+/** Alert */
+.ant-alert {
+  &.ant-alert-error {
+    color: var(--color-error-dark) !important;
+  }
+  &.ant-alert-info {
+    color: var(--color-info-dark) !important;
+  }
+  &.ant-alert-success {
+    color: var(--color-success-dark) !important;
+  }
+  &.ant-alert-warning {
+    color: var(--color-warning-dark) !important;
+  }
+
+  & > .ant-alert-icon,
+  & > .ant-alert-content,
+  & > .ant-alert-content > * {
+    color: inherit !important;
+  }
+}
+
+.ant-modal.ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon,
+.ant-popconfirm .ant-popconfirm-message > .ant-popconfirm-message-icon .anticon {
+  color: var(--color-secondary);
+}
+
+/** Modal */
+.ant-modal-root > .ant-modal-wrap > .ant-modal {
+  width: 100% !important;
+  max-width: 520px;
+
+  &.modal-lg {
+    max-width: 1000px;
+  }
+}

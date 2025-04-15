@@ -1,8 +1,0 @@
-a {
-  color: var(--color-primary);
-  font-weight: 600;
-
-  &:hover {
-    color: var(--color-primary-80);
-  }
-}

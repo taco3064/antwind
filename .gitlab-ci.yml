@@ -1,0 +1,18 @@
+stages:
+  - publish
+
+variables:
+  VERSION: 0.0.1
+
+publish:
+  stage: publish
+  image: node:22.14.0-alpine
+  only:
+    - tags
+  script:
+    - corepack enable
+    - corepack use pnpm
+    - pnpm install
+    - pnpm build
+    - cd dist/libs/antwind
+    - npm publish --access public

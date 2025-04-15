@@ -1,0 +1,8 @@
+.ant-steps .ant-steps-item-wait .ant-steps-item-icon {
+  border-color: var(--color-soft);
+  background: var(--color-disabled-dark);
+
+  & > .ant-steps-icon {
+    color: var(--color-muted);
+  }
+}

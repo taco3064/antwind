@@ -1,0 +1,6 @@
+.ant-descriptions.ant-descriptions-bordered
+  > .ant-descriptions-view
+  .ant-descriptions-row
+  > .ant-descriptions-item-label {
+  color: var(--color-muted);
+}

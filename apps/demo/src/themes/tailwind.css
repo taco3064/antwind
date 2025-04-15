@@ -1,0 +1,15 @@
+@import 'tailwindcss' important;
+@import 'antwind';
+
+/* All Themes */
+@import './palettes/clinico.css';
+@import './palettes/custom.css';
+@import './palettes/ibelive.css';
+@import './palettes/wishlife.css';
+
+#root {
+  height: 100svh;
+  overflow: hidden auto;
+  background: var(--color-content-layout);
+  color: var(--color-base);
+}

@@ -1,0 +1,81 @@
+.\:custom {
+  --color-content-base: #174065; /* 深青藍，更顯眼的主要內容區 */
+  --color-content-layout: #0b1e32; /* 深夜天空藍 */
+  --color-content-paper: #112545; /* 星夜微光 */
+  --color-divider: #233b5d; /* 星夜雲層陰影 */
+
+  --color-contrast: rgba(255, 255, 255, 0.9);
+  --color-muted: rgba(255, 255, 255, 0.8);
+  --color-soft: rgba(255, 255, 255, 0.6);
+  --color-base: #e0e8f0;
+
+  --color-disabled-dark: rgba(255, 255, 255, 0.25);
+  --color-disabled-divider: rgba(255, 255, 255, 0.25);
+  --color-disabled-light: #2a3e5d;
+
+  --color-error-dark: #ff6b6b; /* 夕陽紅 */
+  --color-error-divider: #ffadad;
+  --color-error-light: #ffdede;
+
+  --color-info-dark: #4189ff; /* 深藍夜空 */
+  --color-info-divider: #76a5ff;
+  --color-info-light: #b0d0ff;
+
+  --color-success-dark: #3abf6e; /* 森林綠 */
+  --color-success-divider: #7deba8;
+  --color-success-light: #c0ffe0;
+
+  --color-warning-dark: #ff7d1a; /* 暖色調警示 */
+  --color-warning-divider: #ff9f5e;
+  --color-warning-light: #ffd6b3;
+
+  --color-magenta-dark: #d1499b; /* 微光粉紫 */
+  --color-magenta-divider: #e07bbc;
+  --color-magenta-light: #f5c3e1;
+
+  --color-volcano-dark: #e85d38; /* 星夜橙紅 */
+  --color-volcano-divider: #f59b7d;
+  --color-volcano-light: #facfbd;
+
+  --color-orange-dark: #ff6f1e; /* 柔和橘 */
+  --color-orange-divider: #ffa366;
+  --color-orange-light: #ffd0b3;
+
+  --color-lime-dark: #7aa802; /* 柔和青檸 */
+  --color-lime-divider: #aadf62;
+  --color-lime-light: #daf8b4;
+
+  --color-cyan-dark: #2fb8ac; /* 海洋青 */
+  --color-cyan-divider: #70d4c8;
+  --color-cyan-light: #b5f2ec;
+
+  --color-geekblue-dark: #3652aa; /* 夜幕藍 */
+  --color-geekblue-divider: #718bd6;
+  --color-geekblue-light: #b8c4f0;
+
+  --color-purple-dark: #6d42c4; /* 星夜紫 */
+  --color-purple-divider: #9d7fe4;
+  --color-purple-light: #d6c2f8;
+
+  --color-primary: #3e68e0; /* 星夜亮藍，提升對比度 */
+  --color-primary-90: #4673e6;
+  --color-primary-80: #4f7eed;
+  --color-primary-70: #5b89f3;
+  --color-primary-60: #6795fa;
+  --color-primary-50: #7aa6ff;
+  --color-primary-40: #97baff;
+  --color-primary-30: #b3cfff;
+  --color-primary-20: #d0e3ff;
+  --color-primary-10: #ecf4ff;
+
+  --color-secondary: #20748d; /* 深青綠，呼應星夜渦旋 */
+  --color-secondary-90: #25819b;
+  --color-secondary-80: #2a8ea9;
+  --color-secondary-70: #319bb7;
+  --color-secondary-60: #39a9c5;
+  --color-secondary-50: #53b7d2;
+  --color-secondary-40: #77c5de;
+  --color-secondary-30: #9bd3ea;
+  --color-secondary-20: #bfe1f5;
+  --color-secondary-10: #e3f0fa;
+}
