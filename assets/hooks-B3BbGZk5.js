@@ -1,1 +1,0 @@
-import{cj as o,j as s,B as a}from"./index-CRAzO0-O.js";const i=()=>{const[e,t]=o.useMessage(),n=()=>{e.info("Hello, Ant Design!")};return s.jsxs(s.Fragment,{children:[t,s.jsx(a,{type:"primary",onClick:n,children:"Display normal message"})]})};export{i as default};
