@@ -1,0 +1,81 @@
+.\:pastella {
+  --color-content-base: #ffffff; /* 純白背景，乾淨簡約 */
+  --color-content-layout: #f9f9fb; /* 牛奶白 */
+  --color-content-paper: #fefefe; /* 紙白微霧感 */
+  --color-divider: #e0e0e0; /* 淡灰分隔 */
+
+  --color-contrast: rgba(0, 0, 0, 0.9);
+  --color-muted: rgba(0, 0, 0, 0.7);
+  --color-soft: rgba(0, 0, 0, 0.5);
+  --color-base: #384047; /* 深灰輔助文字色 */
+
+  --color-disabled-dark: rgba(0, 0, 0, 0.2);
+  --color-disabled-divider: rgba(0, 0, 0, 0.15);
+  --color-disabled-light: #f0f0f0;
+
+  --color-error-dark: #ff8e8e; /* 馬卡龍草莓粉紅 */
+  --color-error-divider: #ffbaba;
+  --color-error-light: #ffe3e3;
+
+  --color-info-dark: #6fbaff; /* 馬卡龍天藍 */
+  --color-info-divider: #a7d4ff;
+  --color-info-light: #d8edff;
+
+  --color-success-dark: #7cdcb5; /* 馬卡龍薄荷綠 */
+  --color-success-divider: #b6f0d7;
+  --color-success-light: #e0fbee;
+
+  --color-warning-dark: #ffc26b; /* 馬卡龍杏橙 */
+  --color-warning-divider: #ffe0a8;
+  --color-warning-light: #fff3da;
+
+  --color-magenta-dark: #f88ab8; /* 馬卡龍櫻花粉紫 */
+  --color-magenta-divider: #fabfda;
+  --color-magenta-light: #fde5f1;
+
+  --color-volcano-dark: #ff9a7a; /* 馬卡龍蜜桃橘 */
+  --color-volcano-divider: #ffc3b0;
+  --color-volcano-light: #ffeae2;
+
+  --color-orange-dark: #ffb066; /* 馬卡龍哈密瓜橘 */
+  --color-orange-divider: #ffd1a3;
+  --color-orange-light: #fff1e3;
+
+  --color-lime-dark: #c2e65d; /* 馬卡龍青檸黃綠 */
+  --color-lime-divider: #dff3a1;
+  --color-lime-light: #f7fcd9;
+
+  --color-cyan-dark: #73e4e1; /* 馬卡龍海鹽藍 */
+  --color-cyan-divider: #b1f2f0;
+  --color-cyan-light: #e6fcfb;
+
+  --color-geekblue-dark: #9daeff; /* 馬卡龍薰衣草藍 */
+  --color-geekblue-divider: #c5d3ff;
+  --color-geekblue-light: #ebf0ff;
+
+  --color-purple-dark: #c9a4f6; /* 馬卡龍紫羅蘭 */
+  --color-purple-divider: #e3ccfa;
+  --color-purple-light: #f7efff;
+
+  --color-primary: #96c5ff; /* 馬卡龍主調藍（天空糖） */
+  --color-primary-90: #a6ceff;
+  --color-primary-80: #b6d7ff;
+  --color-primary-70: #c7e0ff;
+  --color-primary-60: #d7e9ff;
+  --color-primary-50: #e4f0ff;
+  --color-primary-40: #edf5ff;
+  --color-primary-30: #f4f9ff;
+  --color-primary-20: #fafcff;
+  --color-primary-10: #ffffff;
+
+  --color-secondary: #ffafd2; /* 馬卡龍副色粉（莓果糖） */
+  --color-secondary-90: #ffbddd;
+  --color-secondary-80: #ffcbe6;
+  --color-secondary-70: #ffd9ef;
+  --color-secondary-60: #ffe6f4;
+  --color-secondary-50: #fff0f8;
+  --color-secondary-40: #fff6fa;
+  --color-secondary-30: #fff9fc;
+  --color-secondary-20: #fffcfd;
+  --color-secondary-10: #ffffff;
+}

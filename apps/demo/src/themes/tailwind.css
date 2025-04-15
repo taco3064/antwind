@@ -2,7 +2,8 @@
 @import 'antwind';
 
 /* All Themes */
-@import './palettes/custom.css';
+@import './palettes/nocturne.css';
+@import './palettes/pastella.css';
 
 #root {
   height: 100svh;

@@ -14,11 +14,11 @@ import type { AppProps } from './types';
 export default function App({ children }: AppProps) {
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  const [palette, setPalette] = useState<PaletteCode>('custom');
+  const [palette, setPalette] = useState<PaletteCode>('nocturne');
 
   return (
     <AntwindThemeProvider
-      dark={palette === 'custom'}
+      dark={palette === 'nocturne'}
       rootEl={() => document.getElementById('root')!}
       value={palette}
       onChange={setPalette}
@@ -27,7 +27,7 @@ export default function App({ children }: AppProps) {
         <AppstoreOutlined className="text-gray text-3xl mr-2" rotate={45} />
 
         <Typography.Title level={3} className="text-white m-0">
-          Tailantd Theme
+          Antwind ({palette.replace(/^./, (char) => char.toUpperCase())})
         </Typography.Title>
 
         <Dropdown

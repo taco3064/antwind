@@ -9,4 +9,4 @@ interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
 
-type PaletteCode = 'custom';
+type PaletteCode = 'nocturne' | 'pastella';
